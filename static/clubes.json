@@ -1,0 +1,163 @@
+{
+  
+    "262": {
+      "nome": "Flamengo",
+      "apelido": "Mengão",
+      "abreviacao": "FLA",
+      "escudos": {
+        "60x60": "https://s.sde.globo.com/media/organizations/2018/04/09/Flamengo-65.png"
+      }
+    },
+    "263": {
+      "nome": "Botafogo",
+      "apelido": "Glorioso",
+      "abreviacao": "BOT",
+      "escudos": {
+        "60x60": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-65.png"
+      }
+    },
+    "264": {
+      "nome": "Corinthians",
+      "apelido": "Timão",
+      "abreviacao": "COR",
+      "escudos": {
+        "60x60": "https://s.sde.globo.com/media/organizations/2019/09/30/Corinthians_65.png"
+      }
+    },
+    "265": {
+      "nome": "Bahia",
+      "apelido": "Tricolor de Aço",
+      "abreviacao": "BAH",
+      "escudos": {
+        "60x60": "https://s.sde.globo.com/media/organizations/2014/04/14/bahia_60x60.png"
+      }
+    },
+    "266": {
+      "nome": "Fluminense",
+      "apelido": "Tricolor",
+      "abreviacao": "FLU",
+      "escudos": {
+        "60x60": "https://s.sde.globo.com/media/organizations/2014/04/14/fluminense_60x60.png"
+      }
+    },
+    "267": {
+      "nome": "Vasco",
+      "apelido": "Gigante da Colina",
+      "abreviacao": "VAS",
+      "escudos": {
+        "60x60": "https://s.sde.globo.com/media/organizations/2021/09/04/ESCUDO-VASCO-RGB_65px.png"
+      }
+    },
+    "275": {
+      "nome": "Palmeiras",
+      "apelido": "Verdão",
+      "abreviacao": "PAL",
+      "escudos": {
+        "60x60": "https://s.sde.globo.com/media/organizations/2014/04/14/palmeiras_60x60.png"
+      }
+    },
+    "276": {
+      "nome": "São Paulo",
+      "apelido": "Tricolor",
+      "abreviacao": "SAO",
+      "escudos": {
+        "60x60": "https://s.sde.globo.com/media/organizations/2014/04/14/sao_paulo_60x60.png"
+      }
+    },
+    "277": {
+      "nome": "Santos",
+      "apelido": "Peixe",
+      "abreviacao": "SAN",
+      "escudos": {
+        "60x60": "https://s.sde.globo.com/media/organizations/2014/04/14/santos_60x60.png"
+      }
+    },
+    "280": {
+      "nome": "Bragantino",
+      "apelido": "Massa Bruta",
+      "abreviacao": "BGT",
+      "escudos": {
+        "60x60": "https://s.sde.globo.com/media/organizations/2020/01/01/65.png"
+      }
+    },
+    "282": {
+      "nome": "Atlético-MG",
+      "apelido": "Galo",
+      "abreviacao": "CAM",
+      "escudos": {
+        "60x60": "https://s.sde.globo.com/media/organizations/2017/11/23/Atletico-Mineiro-escudo65px.png"
+      }
+    },
+    "283": {
+      "nome": "Cruzeiro",
+      "apelido": "Raposa",
+      "abreviacao": "CRU",
+      "escudos": {
+        "60x60": "https://s.sde.globo.com/media/organizations/2021/02/13/65_cruzeiro-2021.png"
+      }
+    },
+    "284": {
+      "nome": "Grêmio",
+      "apelido": "Imortal",
+      "abreviacao": "GRE",
+      "escudos": {
+        "60x60": "https://s.sde.globo.com/media/organizations/2014/04/14/gremio_60x60.png"
+      }
+    },
+    "285": {
+      "nome": "Internacional",
+      "apelido": "Colorado",
+      "abreviacao": "INT",
+      "escudos": {
+        "60x60": "https://s.sde.globo.com/media/organizations/2016/05/03/inter65.png"
+      }
+    },
+    "290": {
+      "nome": "Goiás",
+      "apelido": "Esmeraldino",
+      "abreviacao": "GOI",
+      "escudos": {
+        "60x60": "https://s.sde.globo.com/media/organizations/2021/03/01/goias-65.png"
+      }
+    },
+    "293": {
+      "nome": "Athlético-PR",
+      "apelido": "Furacão",
+      "abreviacao": "CAP",
+      "escudos": {
+        "60x60": "https://s.sde.globo.com/media/organizations/2019/09/09/Athletico-PR-65x65.png"
+      }
+    },
+    "294": {
+      "nome": "Coritiba",
+      "apelido": "Coxa",
+      "abreviacao": "CFC",
+      "escudos": {
+        "60x60": "https://s.sde.globo.com/media/organizations/2017/03/29/coritiba65.png"
+      }
+    },
+    "327": {
+      "nome": "América-MG",
+      "apelido": "Coelho",
+      "abreviacao": "AME",
+      "escudos": {
+        "60x60": "https://s.sde.globo.com/media/organizations/2019/02/28/escudo65_1.png"
+      }
+    },
+    "356": {
+      "nome": "Fortaleza",
+      "apelido": "Leão do Pici",
+      "abreviacao": "FOR",
+      "escudos": {
+        "60x60": "https://s.sde.globo.com/media/organizations/2021/09/19/65_0000_Fortaleza-2021.png"
+      }
+    },
+    "373": {
+      "nome": "Ceará",
+      "apelido": "Vozão",
+      "abreviacao": "CEA",
+      "escudos": {
+        "60x60": "https://s.sde.globo.com/media/organizations/2018/11/01/ceara65.png"
+      }
+    }
+  }

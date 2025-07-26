@@ -1,0 +1,134 @@
+<!-- Declaração do tipo de documento e especificação do idioma -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!-- Meta tags definindo o conjunto de caracteres e a escala inicial da viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/static/bola-2.png" type="image/x-icon">
+    <!-- Título da página exibido na barra de título do navegador -->
+    <title>Guru do Brasileirão</title>
+    <!-- Inclusão de um arquivo CSS externo -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+    <!-- Inclusão de um arquivo JavaScript externo -->
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</head>
+<body>
+<div>
+    <nav class="navbar">
+        <div class="navbar-title">
+            <h2>GURU DO BRASILEIRÃO</h2>
+        </div>
+    </nav>
+</div>
+    <!-- Div para a imagem de fundo -->
+    <div class="back-img"></div>
+    <!-- Div para informações e instruções do chatbot -->
+    <div class="bot-tutorial">
+        <div><h1>separador</h1></div>
+        <div id="manual" >
+            <p id="title">Manual</p>
+            <h6 id="instruções">                 
+                <p>Digite o texto da opção desejada na caixa de texto e pressione "Enter" ou clique no botão "Enviar".</p>
+                
+                <p>Ao final de cada interação, você pode digitar "voltar" para retornar ao menu principal.</p>
+                
+                <p>Para voltar ao Início, sempre digite: "Voltar"</p>
+                
+                <p>Se desejar realizar uma nova busca você pode digitar: "História do Campeonato", "Títulos", "Clubes", "Jogadores", "Maior Campeão", "Maiores Artilheiros", "Campeões", "Curiosidades", "História do Clube desejado", "Técnico do Clube desejado" ou "voltar"!!!</p>
+            </h6>
+
+        </div>
+
+    </div>
+
+    <div><h1>separador</h1></div>
+    
+    <div class="box-question">
+        <!-- Cabeçalho do chatbot -->
+        <div class="topo-chat">
+            <h2>Guru do Brasileirão</h2>
+        </div>
+        <!-- Container para as mensagens do chatbot -->
+        <div class="message-container">
+            <table>
+                <tbody id="message-table">
+                    <!-- Linha para as mensagens do usuário -->
+                    <tr class="user-message-row">
+                        <!-- Coluna para o remetente da mensagem do usuário -->
+                        <!-- Coluna para a mensagem do usuário -->
+                    </tr>
+                    <!-- Linha para as mensagens do chatbot -->
+                    <tr class="bot-message-row">
+                        <!-- Coluna para a mensagem do chatbot -->
+                        <td class="bot-message">
+                            Oi, eu sou o Guru do Campeonato Brasileiro. Digite de acordo o menu inicial o que quer saber:
+                            <br><br>
+                            - História do Campeonato
+                            <br>
+                            <br>
+                            - Jogadores
+                            <br><br>
+                            - Títulos
+                            <br><br>
+                            - Maior Campeão
+                            <br><br>
+                            - Maiores Artilheiros
+                            <br><br>
+                            - Campeões
+                            <br><br>
+                            - Curiosidades
+                            <br><br>
+                            - Clubes
+                            <br><br>
+                            - História do [Clube desejado]!
+                            <br><br>
+                            - Técnico do [Clube desejado]!
+                            <br>
+                        </td>
+                    </tr>
+                    <!-- Outras mensagens podem ser adicionadas aqui -->
+                </tbody>
+            </table>
+        </div>
+        <!-- Rodapé do chatbot com campo de entrada de texto e botão de envio -->
+        <div class="footer">
+            <input type="text" id="user-input" placeholder="Digite sua pergunta...">
+            <button id="btn-submit">Enviar</button>
+        </div>
+    </div>
+    <!-- Div para informações sobre os desenvolvedores -->
+    <div class="components">
+        <div><h1>separador</h1></div>
+        <div class="pie-container">
+            <h2>Ranking de Torcidas</h2>
+            <div class="pie-chart">
+
+              <div class="slice palmeiras" style="transform: rotate(-200deg);"></div>
+              <div class="slice bahia" style="transform: rotate(19deg);"></div>
+              <div class="slice cruzeiro" style="transform: rotate(47.54deg);"></div>
+              <div class="slice fluminense" style="transform: rotate(52.46deg);"></div>
+              <div class="slice itabuna" style="transform: rotate(55.74deg);"></div>
+              <div class="slice sao-paulo" style="transform: rotate(59.02deg);"></div>
+              <div class="slice corinthians" style="transform: rotate(-63.3deg);"></div>
+              <div class="slice vasco" style="transform: rotate(68.22deg);"></div>
+              <div class="slice botafogo" style="transform: rotate(76.42deg);"></div>
+              <div class="slice flamengo" style="transform: rotate(-150deg);"></div>
+              
+            </div>
+        
+            <div class="legend">
+              <div class="legend-item"><div class="legend-color" style="background-color: #FF5733;"></div> Flamengo</div>
+              <div class="legend-item"><div class="legend-color" style="background-color: #2ecc71;"></div> Palmeiras</div>
+              <div class="legend-item"><div class="legend-color" style="background-color: #34495e;"></div> Corinthians</div>
+              <div class="legend-item"><div class="legend-color" style="background-color: #e67e22;"></div> Botafogo</div>
+              <div class="legend-item"><div class="legend-color" style="background-color: #3498db;"></div> Bahia</div>
+              <div class="legend-item"><div class="legend-color" style="background-color: #9b59b6;"></div> São Paulo</div>
+              <div class="legend-item"><div class="legend-color" style="background-color: #f7faf9;"></div> Vasco</div>
+              <div class="legend-item"><div class="legend-color" style="background-color: #08208c;"></div> Cruzeiro</div>
+              <div class="legend-item"><div class="legend-color" style="background-color: #47130e;"></div> Fluminense</div>
+              <div class="legend-item"><div class="legend-color" style="background-color: #f3ec12;"></div> Itabuna</div>
+            </div>
+          </div>
+</body>
+</html>

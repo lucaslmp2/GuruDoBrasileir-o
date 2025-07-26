@@ -1,0 +1,9 @@
+{
+    "1": { "id": 1, "nomep": "Goleiro", "abreviacao": "gol" },
+    "2": { "id": 2, "nomep": "Lateral", "abreviacao": "lat" },
+    "3": { "id": 3, "nomep": "Zagueiro", "abreviacao": "zag" },
+    "4": { "id": 4, "nomep": "Meia", "abreviacao": "mei" },
+    "5": { "id": 5, "nomep": "Atacante", "abreviacao": "ata" },
+    "6": { "id": 6, "nomep": "Técnico", "abreviacao": "tec" }
+  }
+  

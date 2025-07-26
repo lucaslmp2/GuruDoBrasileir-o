@@ -1,0 +1,22 @@
+{
+    "times": [
+      {"nome": "Palmeiras", "titulos": 11, "anos": [1960, 1967, 1967, 1969, 1972, 1973, 1993, 1994, 2016, 2018, 2022]},
+      {"nome": "Santos", "titulos": 8, "anos": [1961, 1962, 1963, 1964, 1965, 1968, 2002, 2004]},
+      {"nome": "Flamengo", "titulos": 8, "anos": [1980, 1982, 1983, 1987, 1992, 2009, 2019, 2020]},
+      {"nome": "Corinthians", "titulos": 7, "anos": [1990, 1998, 1999, 2005, 2011, 2015, 2017]},
+      {"nome": "São Paulo", "titulos": 6, "anos": [1977, 1986, 1991, 2006, 2007, 2008]},
+      {"nome": "Cruzeiro", "titulos": 4, "anos": [1966, 2003, 2013, 2014]},
+      {"nome": "Fluminense", "titulos": 4, "anos": [1970, 1984, 2010, 2012]},
+      {"nome": "Vasco", "titulos": 4, "anos": [1974, 1989, 1997, 2000]},
+      {"nome": "Atlético-MG", "titulos": 3, "anos": [1937, 1971, 2021]},
+      {"nome": "Internacional", "titulos": 3, "anos": [1975, 1976, 1979]},
+      {"nome": "Bahia", "titulos": 2, "anos": [1959, 1988]},
+      {"nome": "Botafogo", "titulos": 2, "anos": [1968, 1995]},
+      {"nome": "Grêmio", "titulos": 2, "anos": [1981, 1996]},
+      {"nome": "Athletico-PR", "titulos": 1, "anos": [2001]},
+      {"nome": "Coritiba", "titulos": 1, "anos": [1985]},
+      {"nome": "Guarani", "titulos": 1, "anos": [1978]},
+      {"nome": "Sport", "titulos": 1, "anos": [1987]}
+    ]
+  }
+  

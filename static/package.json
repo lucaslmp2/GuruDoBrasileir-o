@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "compromise": "^14.10.0",
+    "openai": "^4.17.4",
+    "require": "^2.4.20",
+    "required": "^1.0.0"
+  }
+}

@@ -1,0 +1,321 @@
+:root {
+    --white: hwb(210 96% 3%);
+    --yellow: #e4eb0c;
+    --green: #88e015;
+    --gray: #6284d8;
+    --gray2: #96a2e2;
+    --dark: #000;
+    --blue: #1931ab;
+}
+h1 {
+    visibility: hidden;
+}
+#title-components{
+    visibility: hidden;
+}
+body {
+    color: var(--white);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    overflow: scroll;
+    background-image: url('/static/Group\ 1.png');
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+.navbar {
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+    background-color:   rgba(16, 48, 16, 0.5);
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar h2 {
+    margin: 0;
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: color 0.5s ease-in-out; /* Adiciona uma transição suave na cor */
+}
+
+.navbar h2:hover {
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+    color: #ffeb3b;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.message-row {
+    display: flex;
+    justify-content: flex-start; /* Ajustado para alinhar à esquerda */
+    margin: 5px 0;
+    background-color: var(--blue); /* Cor de fundo para mensagens do usuário */
+}
+/* Estilos para as mensagens do usuário */
+.user-message-row {
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px 0;
+}
+.user-message-sender {
+    width: 30%;
+    text-align: left;
+}
+.user-message {
+    background-color: var(--blue); /* Cor de fundo para mensagens do usuário */
+    color: var(--white); /* Cor do texto para mensagens do usuário */
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 70%;
+    word-wrap: break-word;
+    margin: 0 10px 5px 0;
+    text-align: left;
+    align-self: flex-end; /* Alinhe à direita */
+}
+/* Estilos para as mensagens do chatbot */
+.bot-message-row {
+    display: flex;
+    justify-content: flex-start;
+    margin: 5px 0;
+}
+.bot-message-sender {
+    width: 30%;
+    text-align: right;
+}
+.bot-message {
+    background-color:  #006400; 
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 60%;
+    word-wrap: break-word;
+    margin: 0 0 5px 10px;
+    text-align: left;
+    align-self: flex-start;
+}
+
+.back-img {
+    position: fixed;
+    top: auto;
+    left: auto;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bot-tutorial {
+    align-items: center;
+    min-height: 100vh;
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    position: relative;
+}
+#manual {
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    text-align: left;
+    padding: 20px;
+    background-color: rgba(24, 55, 4, 0.391);
+    font-size: 35px;
+    margin: 4%;
+    border-radius: 15px;
+    height: auto;
+    border: 3px solid rgb(239, 239, 5);; 
+    position: relative;
+}
+#title {
+    font-size: 40px;
+    font-weight: bold;
+    color: #f7f7f3; 
+    text-align: center;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+
+.components{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+    padding: 3rem;
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    position: relative;
+}
+.guru-div{
+    display: flex;
+    padding: 12px;
+}
+.box-question {
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+    background-color: #006400;
+    display: flex;
+    color:#ffeb3b;
+    flex-direction: column;
+    align-items: center;
+    padding: auto;
+    height: 650px;
+    text-align: center;
+    width: 110%;
+    margin: auto;
+    position: relative;
+    border: 3px solid rgb(218, 214, 22);;
+}
+
+.bot-tutorial {
+    border-radius: 10px 10px 0 0;
+    font-size: 1.4rem;
+}
+
+.footer {
+    height: auto;
+    background-color: #006400;
+    border-radius: 0 0 10px 10px;
+    margin: 50px;
+}
+.topo-chat{
+    border-radius: 10px 10px 0 0;
+    background-color: #006400;
+    padding: auto;
+    height: auto;
+    width: 100%;
+}
+input {
+    width: 50%;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#btn-submit {
+    border-radius: 5px;
+    font-size: 1rem;
+    border: none;
+    padding: 10px;
+}
+
+#btn-submit:hover {
+    background-color: yellow;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.message-container {
+    max-width: auto;
+    max-height: auto; /* Defina a altura máxima desejada para a mensagem-container */
+    overflow: auto;
+    padding: 10px; /* Adicione um espaço entre o conteúdo e a borda da caixa de mensagens */
+    border: 7px solid var(--yellow); /* Adicione uma borda para melhorar a aparência */
+}
+#message-table {
+    background-color:rgba(30, 88, 30, 0.5);
+    visibility: unset;
+}
+
+#message-table th, #message-table td {
+    text-align: left;
+}
+
+#message-table img {
+    max-width: 100px; /* Ajuste conforme necessário */
+    height: auto;
+}
+    .pie-container h2 {
+    color: #ffeb3b;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.5s ease-in-out; /* Adiciona uma transição suave na cor */
+    }
+  .pie-container {
+    text-shadow: 2px 2px 4px rgb(242, 244, 240);
+    color:#ffeb3b;
+    background-color: rgba(20, 221, 20, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 300px;
+    width: auto;
+    margin: auto;
+    height: auto;
+    padding: 30px;
+    background-color:rgba(24, 55, 4, 0.391);
+    border: 3px solid rgb(218, 214, 22);
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 15px;
+  }
+
+  .pie-chart {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #fff;
+    overflow: hidden;
+  }
+
+  .slice {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(50% 50%, 100% 0, 100% 100%);
+  }
+
+  .legend {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  .legend-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+
+  .legend-color {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+
+  .flamengo { background-color: #FF5733; transform: rotate(0deg); }
+  .bahia { background-color: #3498db; transform: rotate(75.4deg); }
+  .cruzeiro { background-color: #08208c; transform: rotate(47.54deg); }
+  .fluminense { background-color: #47130e; transform: rotate(52.46deg); }
+  .itabuna { background-color: #f3ec12; transform: rotate(55.74deg); }
+  .sao-paulo { background-color: #9b59b6; transform: rotate(59.02deg); }
+  .corinthians { background-color: #34495e; transform: rotate(63.3deg); }
+  .vasco { background-color: #f7faf9; transform: rotate(68.22deg); }
+  .botafogo { background-color: #2ecc71; transform: rotate(76.42deg); }
+  .palmeiras { background-color: #e67e22; transform: rotate(-150deg); }
