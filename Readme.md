@@ -11,7 +11,7 @@ Este é um projeto de chatbot, o "Guru do Brasileirão", focado em fornecer info
 Uma característica central do projeto é o uso de uma estrutura de dados de **Árvore B** customizada para mapear as intenções do usuário e buscar respostas de forma eficiente. Além disso, o chatbot se conecta à API do Cartola FC para obter dados de jogadores em tempo real.
 
 ## 🖼️ Screenshot
-![Guru do Brasileirão](https://github.com/lucaslmp2/GuruDoBrasileir-o/Captura de tela 2025-07-26 163434.png)
+![Guru do Brasileirão](https://github.com/lucaslmp2/GuruDoBrasileir-o/Capturadetela2025-07-26163434.png)
 
 ## ✨ Funcionalidades
 
